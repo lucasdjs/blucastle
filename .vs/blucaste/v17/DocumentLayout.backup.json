@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\blucaste\\",
+  "WorkspaceRootPath": "E:\\blucastle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|e:\\blucaste\\blucaste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|e:\\blucastle\\blucaste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\blucaste\\blucaste\\Program.cs",
+              "DocumentMoniker": "E:\\blucastle\\blucaste\\Program.cs",
               "RelativeDocumentMoniker": "blucaste\\Program.cs",
-              "ToolTip": "E:\\blucaste\\blucaste\\Program.cs",
+              "ToolTip": "E:\\blucastle\\blucaste\\Program.cs",
               "RelativeToolTip": "blucaste\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA1wCMAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T01:05:57.609Z",
               "EditorCaption": ""
