@@ -1,0 +1,52 @@
+<div class="container-fluid vh-100 d-flex align-items-center justify-content-center">
+    <div class="row w-100 h-100">
+      <!-- Coluna para Logo -->
+      <div class="col-md-6 d-flex justify-content-center align-items-center bg-white h-100">
+        <div class="justify-content-center align-items-center">
+          <img src="logo.png" alt="Logo" class="img-fluid" style="max-width: 70%;">
+        </div>
+      </div>
+  
+      <div class="col-md-6 d-flex align-items-center justify-content-center bg-danger h-100">
+        <form (ngSubmit)="onLogin()" class="w-75 bg-white p-4 rounded shadow-sm">
+          <h2 class="text-right mb-3">Login</h2>
+  
+          <div class="form-group mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              id="email"
+              class="form-control"
+              [(ngModel)]="email"
+              name="email"
+              placeholder="Digite seu email"
+              required
+            />
+          </div>
+  
+          <div class="form-group mb-4">
+            <label for="password" class="form-label">Senha</label>
+            <input
+              type="password"
+              id="password"
+              class="form-control"
+              [(ngModel)]="password"
+              name="password"
+              placeholder="Digite sua senha"
+              required
+            />
+          </div>
+  
+          <button type="submit" class="btn btn-primary w-100" [disabled]="loading">
+            <span *ngIf="loading" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            Entrar
+          </button>
+  
+          <div *ngIf="message" class="alert" [ngClass]="'alert-' + messageType">
+            {{ message }}
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  

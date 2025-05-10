@@ -1,0 +1,50 @@
+.sidebar {
+    background-color: #e4e4e4;
+    width: 100%;
+    max-width: 400px;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+
+  }
+  .logo-container img {
+    max-width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .list-group-item {
+    background-color: #525252;
+    border: none;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Montserrat", Times, serif;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .list-group-item a {
+    color: white;
+    text-decoration: none;
+    display: block; /* Faz o link ocupar toda a área do item da lista */
+    padding: 10px; /* Dê um pouco de espaço interno ao link */
+    cursor: pointer; /* Garantir que o cursor será de mãozinha (indicando que é clicável) */
+  }
+
+  
+  .list-group-item:active {
+    background-color: #070635; /* Cor de fundo quando o link for clicado */
+  }
+  
+  .logout-btn {
+    margin-top: auto; /* Faz o botão ficar no final da tela */
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #070635;
+    color: white;
+  }
+  

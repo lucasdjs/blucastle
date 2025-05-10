@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\blucaste\\blucaste\\blucaste.csproj": {}
+    "E:\\blucastle\\blucaste\\blucaste.csproj": {}
   },
   "projects": {
-    "E:\\blucaste\\blucaste\\blucaste.csproj": {
+    "E:\\blucastle\\blucaste\\blucaste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\blucaste\\blucaste\\blucaste.csproj",
+        "projectUniqueName": "E:\\blucastle\\blucaste\\blucaste.csproj",
         "projectName": "blucaste",
-        "projectPath": "E:\\blucaste\\blucaste\\blucaste.csproj",
+        "projectPath": "E:\\blucastle\\blucaste\\blucaste.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "E:\\blucaste\\blucaste\\obj\\",
+        "outputPath": "E:\\blucastle\\blucaste\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,62 @@
+<div class="container-fluid">
+    <div class="row vh-100">
+      <div class="col-3 bg-light d-flex flex-column p-0">
+        <app-header></app-header>
+      </div>
+  
+      <div class="col-9 p-4 overflow-auto">
+        <div class="row">
+          <div class="col-12 mb-4 d-flex justify-content-between align-items-center">
+            <h1 class="mb-0">Edição de usuário</h1>
+          </div>
+        </div>
+  
+        <form (ngSubmit)="salvarEdicao()">
+          <div class="mb-3">
+            <label class="form-label">Nome</label>
+            <input type="text" class="form-control" [(ngModel)]="usuario.display_name" name="display_name" required>
+          </div>
+  
+          <div class="mb-3">
+            <label class="form-label">Tipo de Controle de Acesso</label>
+            <select class="form-select" [(ngModel)]="usuario.tipoUso" name="tipo" required>
+              <option [ngValue]="0">Quantidade de Uso</option>
+              <option [ngValue]="1">Validade</option>
+            </select>
+          </div>
+  
+          <div class="mb-3" *ngIf="usuario.tipoUso === 0">
+            <label class="form-label">Quantidade de Uso</label>
+            <input type="number" class="form-control" [(ngModel)]="usuario.quantidadeUso" name="quantidadeUso" required>
+          </div>
+  
+          <div class="mb-3" *ngIf="usuario.tipoUso === 1">
+            <label class="form-label">Validade</label>
+            <input type="date" class="form-control" [(ngModel)]="usuario.validade" name="validade" required>
+          </div>
+  
+          <div class="mb-3">
+            <label class="form-label">Seriais (um por linha)</label>
+            <textarea class="form-control" rows="4" [(ngModel)]="seriaisTexto" name="seriais"></textarea>
+          </div>
+  
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" [(ngModel)]="usuario.status" name="status">
+            <label class="form-check-label">Ativo</label>
+          </div>
+  
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" [(ngModel)]="usuario.log" name="log">
+            <label class="form-check-label">Log</label>
+          </div>
+  
+          <button type="submit" class="btn btn-primary">Salvar</button>
+        </form>
+  
+        <div *ngIf="mensagem" class="alert mt-3" [ngClass]="'alert-' + tipoMensagem">
+          {{ mensagem }}
+        </div>
+      </div>
+    </div>
+  </div>
+  

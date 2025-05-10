@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  button{
+    margin-bottom: 10px;
+  }
+  
+  .container-fluid {
+    height: 100vh;
+  }
+  
+  .bg-danger {
+    background-color: #070635 !important;
+  }
+
+  
+  h2 {
+    font-weight: bold;
+  }
+  
+  form {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.479);
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  

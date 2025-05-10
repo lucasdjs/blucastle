@@ -1,0 +1,20 @@
+<div class="sidebar vh-100">
+    <!-- Logo -->
+    <div class="logo-container d-flex justify-content-center align-items-center w-100">
+      <img src="logo.png" alt="Logo" class="img-fluid">
+    </div>
+  
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <a routerLink="/users" routerLinkActive="active">Usuários ativos</a>
+      </li>
+
+      <li class="list-group-item">
+        <a routerLink="/inactive-users">Usuários inativos</a>
+      </li>
+    </ul>
+  
+    <!-- Botão de Logout -->
+    <button class="btn logout-btn w-100" (click)="onLogout()">Logout</button>
+  </div>
+  
