@@ -1,12 +1,15 @@
-using System.Net.NetworkInformation;
 using blucaste.Logger;
 using blucaste.Models;
 using blucaste.Services;
+using System.Net.NetworkInformation;
+using System.Text.Json;
 
 namespace blucaste
 {
     public partial class Inicializer : Form
     {
+        private int _contadorDeErros;
+        private bool _jaRodou = false;
         private System.Windows.Forms.Timer internetCheckTimer;
         private Usuario usuario;
         private bool conexaoPerdida = false;
@@ -21,7 +24,7 @@ namespace blucaste
             comboBoxSelectedOptionRouter.SelectedIndexChanged += ComboBoxSelectedOptionRouter_SelectedIndexChanged;
             checkBoxPreset.CheckedChanged += CheckBoxPreset_CheckedChanged;
             buttonStart.Click += ButtonStart_Click;
-
+            button2.Click += button2_Click;
             if (usuario.tipoUso == 0)
                 StartInternetMonitoring();
         }
@@ -36,11 +39,11 @@ namespace blucaste
                 {
                     conexaoPerdida = true;
                     internetCheckTimer.Stop();
-                    TelnetLogger.Log($"[ERRO DE CONEXÃO] Usuário: {usuario.display_name} perdeu a conexão com a internet.");
+                    TelnetLogger.Log($"[ERRO DE CONEX?O] Usu?rio: {usuario.display_name} perdeu a conex?o com a internet.");
 
                     MessageBox.Show(
-                        "Conexão com a internet perdida. Usuários com acesso por crédito precisam estar online.",
-                        "Erro de conexão",
+                        "Conex?o com a internet perdida. Usu?rios com acesso por cr?dito precisam estar online.",
+                        "Erro de conex?o",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error
                     );
@@ -51,7 +54,13 @@ namespace blucaste
 
             internetCheckTimer.Start();
         }
-
+        private void SetTextBoxState(TextBox textBox, bool enable)
+        {
+            textBox.ReadOnly = !enable;
+            textBox.BackColor = enable ? Color.White : Color.LightGray;
+            textBox.ForeColor = enable ? Color.Black : Color.FromArgb(30, 30, 30);
+        }
+        
         private bool IsInternetAvailable()
         {
             try
@@ -93,8 +102,16 @@ namespace blucaste
             comboBoxSelectedOptionRouter.Items.Add("Branca");
             comboBoxSelectedOptionRouter.SelectedIndex = 0;
 
-            ApplyRouterPreset();
+            if (checkBoxPreset.Checked && comboBoxSelectedOptionRouter.SelectedItem != null)
+            {
+                LoadPreset(comboBoxSelectedOptionRouter.SelectedItem.ToString());
+            }
+            else
+            {
+                ApplyRouterPreset();
+            }
             UpdateTextBoxesEnabledState();
+            button2.Visible = checkBoxPreset.Checked;
         }
 
         private void ComboBoxSelectedOptionRouter_SelectedIndexChanged(object sender, EventArgs e)
@@ -105,14 +122,24 @@ namespace blucaste
 
         private void CheckBoxPreset_CheckedChanged(object sender, EventArgs e)
         {
-            UpdateTextBoxesEnabledState();
-        }
+            string selectedRouter = comboBoxSelectedOptionRouter.SelectedItem?.ToString();
 
-        private void SetTextBoxState(TextBox textBox, bool enable)
-        {
-            textBox.ReadOnly = !enable;
-            textBox.BackColor = enable ? Color.White : Color.LightGray;
-            textBox.ForeColor = enable ? Color.Black : Color.DarkGray;
+            // Mostrar ou ocultar o botão de salvar preset com base na checkbox
+            button2.Visible = checkBoxPreset.Checked;
+
+            if (checkBoxPreset.Checked)
+            {
+                if (!string.IsNullOrEmpty(selectedRouter))
+                {
+                    LoadPreset(selectedRouter);
+                }
+            }
+            else
+            {
+                ApplyRouterPreset();
+            }
+
+            UpdateTextBoxesEnabledState();
         }
 
         private void ApplyRouterPreset()
@@ -122,13 +149,17 @@ namespace blucaste
             if (selected == "preta")
             {
                 textBoxUser.Text = "admin";
+                textBoxPassword.Text = "admin";
+                textBoxWifi24.Text = "Blucastle_2.4G";
+                textBoxWifi5G.Text = "Blucastle_5G";
             }
             else if (selected == "branca")
             {
-                textBoxUser.Text = "L1vt1m4eng";
+                textBoxUser.Text = "telecomadmin";
+                textBoxPassword.Text = "admin";
+                textBoxWifi24.Text = "Blucastle_2.4G";
+                textBoxWifi5G.Text = "Blucastle_5G";
             }
-
-            textBoxPassword.Text = "admin";
         }
 
         private void UpdateTextBoxesEnabledState()
@@ -205,6 +236,92 @@ namespace blucaste
                 UseShellExecute = true
             };
             System.Diagnostics.Process.Start(psi);
+        }
+        private void LoadPreset(string selectedRouterType)
+        {
+            try
+            {
+                string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                string blucastlePath = Path.Combine(documentsPath, "Blucastle");
+                string fileName = $"preset_{selectedRouterType.ToLower()}.json";
+                string filePath = Path.Combine(blucastlePath, fileName);
+
+                if (File.Exists(filePath))
+                {
+                    string jsonString = File.ReadAllText(filePath);
+                    PresetData loadedPreset = JsonSerializer.Deserialize<PresetData>(jsonString);
+
+                    if (loadedPreset != null)
+                    {
+                        textBoxUser.Text = loadedPreset.User;
+                        textBoxPassword.Text = loadedPreset.Password;
+                        textBoxWifi24.Text = loadedPreset.Wifi24;
+                        textBoxWifi5G.Text = loadedPreset.Wifi5G;
+                    }
+                }
+                else
+                {
+                    ApplyRouterPreset();
+                }
+            }
+            catch (System.Exception ex)
+            {
+                CustomMessageBox.ShowMessage($"Erro ao carregar preset: {ex.Message}", isSuccess: false);
+                TelnetLogger.Log($"Erro ao carregar preset: {ex.Message}");
+                ApplyRouterPreset();
+            }
+        }
+        private void SaveCurrentPreset(string routerTypeToSave)
+        {
+            try
+            {
+                _contadorDeErros++;
+                if (_contadorDeErros == 2) { _contadorDeErros = 0; return; }
+
+                string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                string blucastlePath = Path.Combine(documentsPath, "Blucastle");
+
+                if (!Directory.Exists(blucastlePath))
+                {
+                    Directory.CreateDirectory(blucastlePath);
+                }
+
+                var presetData = new PresetData
+                {
+                    User = textBoxUser.Text,
+                    Password = textBoxPassword.Text,
+                    Wifi24 = textBoxWifi24.Text,
+                    Wifi5G = textBoxWifi5G.Text,
+                    SelectedRouter = routerTypeToSave
+                };
+
+                var options = new JsonSerializerOptions { WriteIndented = true };
+                string jsonString = JsonSerializer.Serialize(presetData, options);
+
+                string fileName = $"preset_{routerTypeToSave.ToLower()}.json";
+                string filePath = Path.Combine(blucastlePath, fileName);
+
+                File.WriteAllText(filePath, jsonString);
+
+                CustomMessageBox.ShowMessage($"Preset '{routerTypeToSave}' salvo com sucesso!", isSuccess: true);
+                TelnetLogger.Log($"Preset '{routerTypeToSave}' salvo com sucesso!");
+            }
+            catch (System.Exception ex)
+            {
+                CustomMessageBox.ShowMessage($"Erro ao salvar preset: {ex.Message}", isSuccess: false);
+                TelnetLogger.Log($"Erro ao salvar preset: {ex.Message}");
+            }
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string selectedRouter = comboBoxSelectedOptionRouter.SelectedItem?.ToString();
+
+            if (string.IsNullOrEmpty(selectedRouter))
+            {
+                return;
+            }
+
+            SaveCurrentPreset(selectedRouter);
         }
     }
 }
