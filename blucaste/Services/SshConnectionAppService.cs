@@ -22,9 +22,7 @@ namespace NetworkServices.SSH
         public StreamReader Reader => _reader;
         public StreamWriter Writer => _writer;
 
-        /// <summary>
-        /// Tenta estabelecer uma conexão SSH e realizar o login no dispositivo remoto.
-        /// </summary>
+
         /// <param name="host">O endereço IP ou hostname do dispositivo.</param>
         /// <param name="port">A porta SSH (geralmente 22).</param>
         /// <param name="username">O nome de usuário para login SSH.</param>
@@ -47,20 +45,15 @@ namespace NetworkServices.SSH
                 {
                     TelnetLogger.Log($"Conexão SSH estabelecida com sucesso com {host}.");
 
-                    // Abre um ShellStream para simular um terminal interativo
                     _shellStream = _sshClient.CreateShellStream("xterm", 80, 24, 800, 600, 1024);
 
-                    // Inicializa os leitores e escritores para interagir com o shell
-                    // Usar UTF8 é comum e recomendado para SSH
                     _reader = new StreamReader(_shellStream, Encoding.UTF8);
                     _writer = new StreamWriter(_shellStream, Encoding.UTF8) { AutoFlush = true }; // AutoFlush garante que os comandos sejam enviados imediatamente
 
-                    // Opcional: Ler o prompt inicial após o login para garantir que o shell está pronto
                     await ReadUntilPromptAsync();
                 }
                 else
                 {
-                    // Se a conexão não foi estabelecida, lança uma exceção
                     throw new Exception($"Falha ao conectar SSH a {host}:{port}. Verifique o IP e a porta.");
                 }
             }
@@ -132,50 +125,38 @@ namespace NetworkServices.SSH
                     int bytesRead = await _reader.ReadAsync(buffer, 0, buffer.Length);
                     output.Append(buffer, 0, bytesRead);
 
-                    // Verifica por prompts comuns ou padrões que indicam o fim da saída de um comando.
-                    // ATENÇÃO: Estes prompts podem variar entre diferentes roteadores e sistemas operacionais.
-                    // Você pode precisar ajustá-los ou adicionar mais padrões específicos do seu roteador (ex: "config# ", "router>", etc.)
                     string currentOutput = output.ToString();
                     if (currentOutput.EndsWith("# ") || currentOutput.EndsWith("$ ") ||
                         currentOutput.EndsWith("> ") || currentOutput.EndsWith("\n\r\n") || // Nova linha dupla (comum após prompts)
                         currentOutput.EndsWith("\r\n#") || currentOutput.EndsWith("\r\n$") ||
                         currentOutput.EndsWith("\r\n>"))
                     {
-                        break; // Prompt encontrado, para de ler
+                        break;
                     }
                 }
-                // Se não há dados e o timeout foi atingido, para de ler
                 else if ((DateTime.Now - startTime) > timeout.Value)
                 {
                     TelnetLogger.Log($"Timeout ao esperar pelo prompt SSH. Conteúdo lido até agora: '{output.ToString()}'");
                     break;
                 }
-                await Task.Delay(50); // Pequeno atraso para evitar consumo excessivo de CPU ao verificar o stream
+                await Task.Delay(50);
             }
             return output.ToString();
         }
 
-        /// <summary>
-        /// Implementação de IDisposable para garantir que os recursos da conexão SSH sejam liberados corretamente.
-        /// É chamado automaticamente quando a instância é usada com a palavra-chave 'using'.
-        /// </summary>
         public void Dispose()
         {
-            // Dispor os objetos em ordem inversa de criação para evitar problemas de dependência
+            
             _writer?.Dispose();
             _reader?.Dispose();
             _shellStream?.Dispose();
 
-            // Verifica se o cliente SSH existe e está conectado antes de desconectar
             if (_sshClient != null && _sshClient.IsConnected)
             {
                 TelnetLogger.Log("Desconectando cliente SSH.");
-                _sshClient.Disconnect(); // Desconecta o cliente SSH
+                _sshClient.Disconnect();
             }
-            _sshClient?.Dispose(); // Dispor o cliente SSH (liberar recursos gerenciados e não gerenciados)
-
-            // Suprime a finalização para evitar que o Garbage Collector chame Dispose novamente.
-            // Isso é uma boa prática para evitar duplicação de liberação de recursos.
+            _sshClient?.Dispose(); 
             GC.SuppressFinalize(this);
         }
     }
