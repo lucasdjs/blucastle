@@ -1,6 +1,4 @@
-﻿using blucaste.Data;
-using blucaste;
-using blucaste.Logger;
+﻿using blucaste.Logger;
 using blucaste.Services;
 using System.Media;
 
@@ -25,6 +23,7 @@ namespace NetworkServices.Telnet
         {
             try
             {
+                var owner = Form.ActiveForm;
                 using var connection = new TelnetConnectionAppService();
                 await connection.ConnectAsync(_host, _port);
 
@@ -32,30 +31,24 @@ namespace NetworkServices.Telnet
                 if (!await login.PerformLoginAsync(connection.Writer, connection.Reader))
                 {
                     SystemSounds.Hand.Play();
-                    ShowAlert("Use o backup enviado, tente novamente.");
+                    CustomMessageBox.ShowMessage("Use o backup enviado, tente novamente.", false);
                     return;
                 }
 
                 var executor = new TelnetCommandExecutor();
                 if (!await executor.ExecuteCommandsAsync(connection.Writer, connection.Reader, commands))
                 {
-                    ShowAlert("Erro na execução de comandos.");
+                    CustomMessageBox.ShowMessage("Erro na execução de comandos.", false);
                     return;
-                }
-
-                if (Program.Usuario != null && Program.Usuario.tipoUso == 0)
-                {
-                    Program.Usuario.quantidadeUso--;
-                    await new FirestoreService().AtualizarQuantidadeUsoAsync(Program.Usuario.Uid, Program.Usuario.quantidadeUso);
-                    TelnetLogger.Log($"Crédito decrementado. Novo saldo: {Program.Usuario.quantidadeUso}");
                 }
 
                 TelnetLogger.Log("Todos os comandos foram executados com sucesso.");
                 SystemSounds.Beep.Play();
-                CustomMessageBox.ShowMessage("Operação concluída com sucesso!", true);
+                CustomMessageBox.ShowMessage("Concluído, reiniciando!", true);
             }
             catch (Exception ex)
             {
+                var owner = Form.ActiveForm;
                 TelnetLogger.Log($"Erro: {ex.Message}");
                 SystemSounds.Hand.Play();
                 CustomMessageBox.ShowMessage("Use o backup enviado, tente novamente.", false);
@@ -64,6 +57,7 @@ namespace NetworkServices.Telnet
 
         public static void ShowAlert(string message)
         {
+            var owner = Form.ActiveForm;
             SystemSounds.Hand.Play();
             CustomMessageBox.ShowMessage(message, false);
         }
