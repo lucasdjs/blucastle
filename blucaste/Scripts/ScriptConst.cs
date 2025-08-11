@@ -8,6 +8,7 @@
         public const string WpaKeySet24G = "prolinecmd wpakey set 12345678";
         public const string WpaKeySet5G = "prolinecmd wpakeyac set 12345678";
         public const string RestoreDefault = "prolinecmd restore default";
+        public const string XponModeSetXpon = "prolinecmd xponmode set XPON";
 
         // === COMANDOS ESPECÍFICOS - MODELO PRETO ===
         public static string SuperWebAccountSetAdmin(string usuario)
@@ -41,22 +42,22 @@
         {
             return $"prolinecmd ssidac set {ssid}";
         }
-
         // === SCRIPT COMPLETO - MODELO PRETO ===
         public static string GerarScriptModeloPreto(string usuarioAdmin, string senhaAdmin, string ssid24G, string ssid5G)
         {
             var comandos = new List<string>
-            {
-                {WebAccountSetUser},
-                WebPwdSetUser,
-                WpaKeySet24G,
-                WpaKeySet5G,
-                SuperWebAccountSetAdmin(usuarioAdmin),
-                SuperWebPwdSetAdmin(senhaAdmin),
-                SsidSet24G(ssid24G),
-                SsidSet5G(ssid5G),
-                RestoreDefault
-            };
+    {
+        WebAccountSetUser,
+        WebPwdSetUser,
+        WpaKeySet24G,
+        WpaKeySet5G,
+        SuperWebAccountSetAdmin(usuarioAdmin),
+        SuperWebPwdSetAdmin(senhaAdmin),
+        SsidSet24G(ssid24G),
+        SsidSet5G(ssid5G),
+        XponModeSetXpon,
+        RestoreDefault
+    };
 
             return string.Join(Environment.NewLine, comandos);
         }
@@ -65,19 +66,25 @@
         public static string GerarScriptModeloBranco(string senhaAdmin, string ssid24G, string ssid5G, string countryCode)
         {
             var comandos = new List<string>
-            {
-                {WebAccountSetUser},
-               {WebPwdSetUser},
-                WpaKeySet24G,
-                WpaKeySet5G,
-                WebSuperPwdSetAdmin(senhaAdmin),
-                SsidSet24G(ssid24G),
-                SsidSet5G(ssid5G),
-                CountryCode(countryCode),
-                RestoreDefault
-            };
+        {
+        WebAccountSetUser,
+        WebPwdSetUser,
+        WpaKeySet24G,
+        WpaKeySet5G,
+        WebSuperPwdSetAdmin(senhaAdmin),
+        SsidSet24G(ssid24G),
+        SsidSet5G(ssid5G),
+        CountryCode(countryCode),
+        RestoreDefault
+        };
 
             return string.Join(Environment.NewLine, comandos);
         }
+        public static string GerarScriptRestoreApenas()
+        {
+            return RestoreDefault;
+        }
+
+
     }
 }
