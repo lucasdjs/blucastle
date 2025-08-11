@@ -1,10 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\blucastle\\",
+  "WorkspaceRootPath": "C:\\blucastle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|e:\\blucastle\\blucaste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Samuel\\AppData\\Local\\Temp\\.vsdbgsrc\\431bd2671d4a905829ead47c57360d4aa9a498a6a93f289873a8ae82c6c4faff\\Query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\logger\\telnetlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\logger\\telnetlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\services\\telnetcommandappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\services\\telnetcommandappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\services\\telnetcommandexecutorappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\services\\telnetcommandexecutorappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\services\\telnetconnectionappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\services\\telnetconnectionappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\services\\telnethelperappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\services\\telnethelperappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\services\\telnetloginappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\services\\telnetloginappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\services\\sshcommandappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\services\\sshcommandappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\services\\routerexecutorappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\services\\routerexecutorappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\scripts\\sshexecuter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\scripts\\sshexecuter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\gateway\\configsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\gateway\\configsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\gateway\\gatewaynetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\gateway\\gatewaynetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\services\\plinkexecuter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\services\\plinkexecuter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +69,188 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Query.cs",
+              "DocumentMoniker": "C:\\Users\\Samuel\\AppData\\Local\\Temp\\.vsdbgsrc\\431bd2671d4a905829ead47c57360d4aa9a498a6a93f289873a8ae82c6c4faff\\Query.cs",
+              "RelativeDocumentMoniker": "..\\Users\\Samuel\\AppData\\Local\\Temp\\.vsdbgsrc\\431bd2671d4a905829ead47c57360d4aa9a498a6a93f289873a8ae82c6c4faff\\Query.cs",
+              "ToolTip": "C:\\Users\\Samuel\\AppData\\Local\\Temp\\.vsdbgsrc\\431bd2671d4a905829ead47c57360d4aa9a498a6a93f289873a8ae82c6c4faff\\Query.cs [Read Only]",
+              "RelativeToolTip": "..\\Users\\Samuel\\AppData\\Local\\Temp\\.vsdbgsrc\\431bd2671d4a905829ead47c57360d4aa9a498a6a93f289873a8ae82c6c4faff\\Query.cs [Read Only]",
+              "ViewState": "AgIAAF8CAAAAAAAAAAAiwGgCAAAnAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:50:01.886Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TelnetCommandAppService.cs",
+              "DocumentMoniker": "C:\\blucastle\\blucaste\\Services\\TelnetCommandAppService.cs",
+              "RelativeDocumentMoniker": "blucaste\\Services\\TelnetCommandAppService.cs",
+              "ToolTip": "C:\\blucastle\\blucaste\\Services\\TelnetCommandAppService.cs",
+              "RelativeToolTip": "blucaste\\Services\\TelnetCommandAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:45:43.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TelnetCommandExecutorAppService.cs",
+              "DocumentMoniker": "C:\\blucastle\\blucaste\\Services\\TelnetCommandExecutorAppService.cs",
+              "RelativeDocumentMoniker": "blucaste\\Services\\TelnetCommandExecutorAppService.cs",
+              "ToolTip": "C:\\blucastle\\blucaste\\Services\\TelnetCommandExecutorAppService.cs",
+              "RelativeToolTip": "blucaste\\Services\\TelnetCommandExecutorAppService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:45:33.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TelnetConnectionAppService.cs",
+              "DocumentMoniker": "C:\\blucastle\\blucaste\\Services\\TelnetConnectionAppService.cs",
+              "RelativeDocumentMoniker": "blucaste\\Services\\TelnetConnectionAppService.cs",
+              "ToolTip": "C:\\blucastle\\blucaste\\Services\\TelnetConnectionAppService.cs",
+              "RelativeToolTip": "blucaste\\Services\\TelnetConnectionAppService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA7wBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:45:21.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TelnetHelperAppService.cs",
+              "DocumentMoniker": "C:\\blucastle\\blucaste\\Services\\TelnetHelperAppService.cs",
+              "RelativeDocumentMoniker": "blucaste\\Services\\TelnetHelperAppService.cs",
+              "ToolTip": "C:\\blucastle\\blucaste\\Services\\TelnetHelperAppService.cs",
+              "RelativeToolTip": "blucaste\\Services\\TelnetHelperAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:45:10.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\blucastle\\blucaste\\Program.cs",
+              "DocumentMoniker": "C:\\blucastle\\blucaste\\Program.cs",
               "RelativeDocumentMoniker": "blucaste\\Program.cs",
-              "ToolTip": "E:\\blucastle\\blucaste\\Program.cs",
+              "ToolTip": "C:\\blucastle\\blucaste\\Program.cs",
               "RelativeToolTip": "blucaste\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBUAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wB4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T01:05:57.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TelnetLoginAppService.cs",
+              "DocumentMoniker": "C:\\blucastle\\blucaste\\Services\\TelnetLoginAppService.cs",
+              "RelativeDocumentMoniker": "blucaste\\Services\\TelnetLoginAppService.cs",
+              "ToolTip": "C:\\blucastle\\blucaste\\Services\\TelnetLoginAppService.cs",
+              "RelativeToolTip": "blucaste\\Services\\TelnetLoginAppService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:44:39.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TelnetLogger.cs",
+              "DocumentMoniker": "C:\\blucastle\\blucaste\\Logger\\TelnetLogger.cs",
+              "RelativeDocumentMoniker": "blucaste\\Logger\\TelnetLogger.cs",
+              "ToolTip": "C:\\blucastle\\blucaste\\Logger\\TelnetLogger.cs",
+              "RelativeToolTip": "blucaste\\Logger\\TelnetLogger.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAswH8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:43:32.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SshCommandAppService.cs",
+              "DocumentMoniker": "C:\\blucastle\\blucaste\\Services\\SshCommandAppService.cs",
+              "RelativeDocumentMoniker": "blucaste\\Services\\SshCommandAppService.cs",
+              "ToolTip": "C:\\blucastle\\blucaste\\Services\\SshCommandAppService.cs",
+              "RelativeToolTip": "blucaste\\Services\\SshCommandAppService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwFYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:42:55.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SshExecuter.cs",
+              "DocumentMoniker": "C:\\blucastle\\blucaste\\Scripts\\SshExecuter.cs",
+              "RelativeDocumentMoniker": "blucaste\\Scripts\\SshExecuter.cs",
+              "ToolTip": "C:\\blucastle\\blucaste\\Scripts\\SshExecuter.cs",
+              "RelativeToolTip": "blucaste\\Scripts\\SshExecuter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:41:29.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConfigSettings.cs",
+              "DocumentMoniker": "C:\\blucastle\\blucaste\\Gateway\\ConfigSettings.cs",
+              "RelativeDocumentMoniker": "blucaste\\Gateway\\ConfigSettings.cs",
+              "ToolTip": "C:\\blucastle\\blucaste\\Gateway\\ConfigSettings.cs",
+              "RelativeToolTip": "blucaste\\Gateway\\ConfigSettings.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwBgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:41:16.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GatewayNetwork.cs",
+              "DocumentMoniker": "C:\\blucastle\\blucaste\\Gateway\\GatewayNetwork.cs",
+              "RelativeDocumentMoniker": "blucaste\\Gateway\\GatewayNetwork.cs",
+              "ToolTip": "C:\\blucastle\\blucaste\\Gateway\\GatewayNetwork.cs",
+              "RelativeToolTip": "blucaste\\Gateway\\GatewayNetwork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:40:47.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlinkExecuter.cs",
+              "DocumentMoniker": "C:\\blucastle\\blucaste\\Services\\PlinkExecuter.cs",
+              "RelativeDocumentMoniker": "blucaste\\Services\\PlinkExecuter.cs",
+              "ToolTip": "C:\\blucastle\\blucaste\\Services\\PlinkExecuter.cs",
+              "RelativeToolTip": "blucaste\\Services\\PlinkExecuter.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:40:40.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RouterExecutorAppService.cs",
+              "DocumentMoniker": "C:\\blucastle\\blucaste\\Services\\RouterExecutorAppService.cs",
+              "RelativeDocumentMoniker": "blucaste\\Services\\RouterExecutorAppService.cs",
+              "ToolTip": "C:\\blucastle\\blucaste\\Services\\RouterExecutorAppService.cs",
+              "RelativeToolTip": "blucaste\\Services\\RouterExecutorAppService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAswKIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:35:07.096Z",
               "EditorCaption": ""
             }
           ]
