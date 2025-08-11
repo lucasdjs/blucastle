@@ -24,12 +24,12 @@ namespace blucaste
             ApplicationConfiguration.Initialize();
             var usuario = new Usuario();
 
-            //// Se quiser ativar novamente o controle de administrador, descomente:
-            //if (!IsRunningAsAdministrator())
-            //{
-            //    RestartAsAdministrator();
-            //    return;
-            //}
+            // Se quiser ativar novamente o controle de administrador, descomente:
+            if (!IsRunningAsAdministrator())
+            {
+                RestartAsAdministrator();
+                return;
+            }
 
             var machineGuid = ConfigSettings.GetCpuAndMotherboardGuid();
 

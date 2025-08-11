@@ -93,7 +93,8 @@
               "RelativeToolTip": "blucaste\\Services\\SshConnectionAppService.cs",
               "ViewState": "AgIAAHMAAAAAAAAAAAAcwJ4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T20:19:08.123Z"
+              "WhenOpened": "2025-08-11T20:19:08.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -201,7 +202,8 @@
               "RelativeToolTip": "blucaste\\PresetData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T19:08:18.445Z"
+              "WhenOpened": "2025-08-11T19:08:18.445Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -225,7 +227,8 @@
               "RelativeToolTip": "blucaste\\Services\\TelnetConnectionAppService.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAA7wBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T17:45:21.313Z"
+              "WhenOpened": "2025-08-11T17:45:21.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -261,7 +264,8 @@
               "RelativeToolTip": "blucaste\\Gateway\\ConfigSettings.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAgwBgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T17:41:16.86Z"
+              "WhenOpened": "2025-08-11T17:41:16.86Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -273,7 +277,8 @@
               "RelativeToolTip": "blucaste\\Gateway\\GatewayNetwork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T17:40:47.661Z"
+              "WhenOpened": "2025-08-11T17:40:47.661Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -285,7 +290,8 @@
               "RelativeToolTip": "blucaste\\Services\\RouterExecutorAppService.cs",
               "ViewState": "AgIAAIMAAAAAAAAAAAAswKQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T17:35:07.096Z"
+              "WhenOpened": "2025-08-11T17:35:07.096Z",
+              "EditorCaption": ""
             }
           ]
         }
