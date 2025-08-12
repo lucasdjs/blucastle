@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\blucastle\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\properties\\publishprofiles\\clickonceprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\properties\\publishprofiles\\clickonceprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\blucaste.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\blucaste.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\forms\\inicializer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\forms\\inicializer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\services\\telnethelperappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\services\\telnethelperappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\forms\\activeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\forms\\activeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +35,8 @@
       "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\forms\\inicializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\forms\\inicializer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\forms\\inicializer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|C:\\blucastle\\blucaste\\forms\\activeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\forms\\activeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\forms\\activeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\forms\\activeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\services\\telnethelperappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\services\\telnethelperappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\logger\\telnetlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,10 +87,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\gateway\\gatewaynetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\gateway\\gatewaynetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|c:\\blucastle\\blucaste\\forms\\inicializer.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{C329D5C6-E9E9-4172-9CC9-8DD65CCC532D}|blucaste\\blucaste.csproj|solutionrelative:blucaste\\forms\\inicializer.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -92,11 +96,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ClickOnceProfile.pubxml",
+              "DocumentMoniker": "C:\\blucastle\\blucaste\\Properties\\PublishProfiles\\ClickOnceProfile.pubxml",
+              "RelativeDocumentMoniker": "blucaste\\Properties\\PublishProfiles\\ClickOnceProfile.pubxml",
+              "ToolTip": "C:\\blucastle\\blucaste\\Properties\\PublishProfiles\\ClickOnceProfile.pubxml",
+              "RelativeToolTip": "blucaste\\Properties\\PublishProfiles\\ClickOnceProfile.pubxml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-08-12T20:31:31.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "blucaste",
+              "DocumentMoniker": "C:\\blucastle\\blucaste\\blucaste.csproj",
+              "RelativeDocumentMoniker": "blucaste\\blucaste.csproj",
+              "ToolTip": "C:\\blucastle\\blucaste\\blucaste.csproj",
+              "RelativeToolTip": "blucaste\\blucaste.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-12T20:25:57.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Inicializer.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Forms\\Inicializer.cs",
               "RelativeDocumentMoniker": "blucaste\\Forms\\Inicializer.cs",
@@ -109,19 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Inicializer.resx",
-              "DocumentMoniker": "C:\\blucastle\\blucaste\\Forms\\Inicializer.resx",
-              "RelativeDocumentMoniker": "blucaste\\Forms\\Inicializer.resx",
-              "ToolTip": "C:\\blucastle\\blucaste\\Forms\\Inicializer.resx",
-              "RelativeToolTip": "blucaste\\Forms\\Inicializer.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-08-12T20:09:53.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Inicializer.Designer.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Forms\\Inicializer.Designer.cs",
               "RelativeDocumentMoniker": "blucaste\\Forms\\Inicializer.Designer.cs",
@@ -138,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ActiveForm.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Forms\\ActiveForm.cs",
               "RelativeDocumentMoniker": "blucaste\\Forms\\ActiveForm.cs",
@@ -151,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "TelnetHelperAppService.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Services\\TelnetHelperAppService.cs",
               "RelativeDocumentMoniker": "blucaste\\Services\\TelnetHelperAppService.cs",
@@ -164,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Inicializer.cs [Design]",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Forms\\Inicializer.cs",
               "RelativeDocumentMoniker": "blucaste\\Forms\\Inicializer.cs",
@@ -176,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Program.cs",
               "RelativeDocumentMoniker": "blucaste\\Program.cs",
@@ -189,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ActiveForm.cs [Design]",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Forms\\ActiveForm.cs",
               "RelativeDocumentMoniker": "blucaste\\Forms\\ActiveForm.cs",
@@ -201,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "TelnetLogger.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Logger\\TelnetLogger.cs",
               "RelativeDocumentMoniker": "blucaste\\Logger\\TelnetLogger.cs",
@@ -214,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -226,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "SshConnectionAppService.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Services\\SshConnectionAppService.cs",
               "RelativeDocumentMoniker": "blucaste\\Services\\SshConnectionAppService.cs",
@@ -239,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ForEach.cs",
               "DocumentMoniker": "C:\\Users\\Samuel\\AppData\\Local\\SourceServer\\664598da72af79c23f377501a3a843927dae764daa6954e98c3c971cd57092e6\\Ix.NET\\Source\\System.Linq.Async\\System\\Linq\\Operators\\ForEach.cs",
               "RelativeDocumentMoniker": "..\\Users\\Samuel\\AppData\\Local\\SourceServer\\664598da72af79c23f377501a3a843927dae764daa6954e98c3c971cd57092e6\\Ix.NET\\Source\\System.Linq.Async\\System\\Linq\\Operators\\ForEach.cs",
@@ -252,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "TelnetCommandExecutorAppService.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Services\\TelnetCommandExecutorAppService.cs",
               "RelativeDocumentMoniker": "blucaste\\Services\\TelnetCommandExecutorAppService.cs",
@@ -264,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "TelnetCommandAppService.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Services\\TelnetCommandAppService.cs",
               "RelativeDocumentMoniker": "blucaste\\Services\\TelnetCommandAppService.cs",
@@ -276,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "PresetData.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\PresetData.cs",
               "RelativeDocumentMoniker": "blucaste\\PresetData.cs",
@@ -289,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ScriptConst.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Scripts\\ScriptConst.cs",
               "RelativeDocumentMoniker": "blucaste\\Scripts\\ScriptConst.cs",
@@ -301,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "TelnetConnectionAppService.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Services\\TelnetConnectionAppService.cs",
               "RelativeDocumentMoniker": "blucaste\\Services\\TelnetConnectionAppService.cs",
@@ -314,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "TelnetLoginAppService.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Services\\TelnetLoginAppService.cs",
               "RelativeDocumentMoniker": "blucaste\\Services\\TelnetLoginAppService.cs",
@@ -326,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "ConfigSettings.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Gateway\\ConfigSettings.cs",
               "RelativeDocumentMoniker": "blucaste\\Gateway\\ConfigSettings.cs",
@@ -339,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "GatewayNetwork.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Gateway\\GatewayNetwork.cs",
               "RelativeDocumentMoniker": "blucaste\\Gateway\\GatewayNetwork.cs",
@@ -352,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "RouterExecutorAppService.cs",
               "DocumentMoniker": "C:\\blucastle\\blucaste\\Services\\RouterExecutorAppService.cs",
               "RelativeDocumentMoniker": "blucaste\\Services\\RouterExecutorAppService.cs",
