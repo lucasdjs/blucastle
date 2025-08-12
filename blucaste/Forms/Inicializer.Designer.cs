@@ -67,7 +67,7 @@
             // 
             checkBoxPreset.AutoSize = true;
             checkBoxPreset.ForeColor = Color.White;
-            checkBoxPreset.Location = new Point(10, 222);
+            checkBoxPreset.Location = new Point(9, 259);
             checkBoxPreset.Margin = new Padding(3, 2, 3, 2);
             checkBoxPreset.Name = "checkBoxPreset";
             checkBoxPreset.Size = new Size(58, 19);
@@ -94,10 +94,10 @@
             buttonStart.BackColor = Color.FromArgb(64, 64, 64);
             buttonStart.Font = new Font("Segoe UI", 12F);
             buttonStart.ForeColor = Color.White;
-            buttonStart.Location = new Point(110, 122);
+            buttonStart.Location = new Point(86, 124);
             buttonStart.Margin = new Padding(3, 2, 3, 2);
             buttonStart.Name = "buttonStart";
-            buttonStart.Size = new Size(139, 40);
+            buttonStart.Size = new Size(184, 40);
             buttonStart.TabIndex = 4;
             buttonStart.Text = "START";
             buttonStart.UseVisualStyleBackColor = false;
@@ -105,7 +105,7 @@
             // 
             // textBoxUser
             // 
-            textBoxUser.Location = new Point(86, 251);
+            textBoxUser.Location = new Point(86, 288);
             textBoxUser.Margin = new Padding(3, 2, 3, 2);
             textBoxUser.Name = "textBoxUser";
             textBoxUser.Size = new Size(110, 23);
@@ -113,7 +113,7 @@
             // 
             // textBoxPassword
             // 
-            textBoxPassword.Location = new Point(86, 278);
+            textBoxPassword.Location = new Point(86, 315);
             textBoxPassword.Margin = new Padding(3, 2, 3, 2);
             textBoxPassword.Name = "textBoxPassword";
             textBoxPassword.Size = new Size(110, 23);
@@ -121,7 +121,7 @@
             // 
             // textBoxWifi24
             // 
-            textBoxWifi24.Location = new Point(86, 305);
+            textBoxWifi24.Location = new Point(86, 342);
             textBoxWifi24.Margin = new Padding(3, 2, 3, 2);
             textBoxWifi24.Name = "textBoxWifi24";
             textBoxWifi24.ReadOnly = true;
@@ -131,7 +131,7 @@
             // 
             // textBoxWifi5G
             // 
-            textBoxWifi5G.Location = new Point(86, 330);
+            textBoxWifi5G.Location = new Point(86, 367);
             textBoxWifi5G.Margin = new Padding(3, 2, 3, 2);
             textBoxWifi5G.Name = "textBoxWifi5G";
             textBoxWifi5G.ReadOnly = true;
@@ -145,7 +145,7 @@
             label1.BackColor = Color.FromArgb(64, 64, 64);
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(9, 254);
+            label1.Location = new Point(9, 291);
             label1.Name = "label1";
             label1.Size = new Size(52, 15);
             label1.TabIndex = 9;
@@ -156,7 +156,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(10, 281);
+            label2.Location = new Point(9, 318);
             label2.Name = "label2";
             label2.Size = new Size(44, 15);
             label2.TabIndex = 10;
@@ -167,7 +167,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(9, 309);
+            label3.Location = new Point(9, 346);
             label3.Name = "label3";
             label3.Size = new Size(60, 13);
             label3.TabIndex = 11;
@@ -178,7 +178,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(10, 334);
+            label4.Location = new Point(10, 371);
             label4.Name = "label4";
             label4.Size = new Size(51, 13);
             label4.TabIndex = 12;
@@ -192,7 +192,7 @@
             pictureBoxSpinner.Location = new Point(86, 200);
             pictureBoxSpinner.Margin = new Padding(3, 2, 3, 2);
             pictureBoxSpinner.Name = "pictureBoxSpinner";
-            pictureBoxSpinner.Size = new Size(201, 24);
+            pictureBoxSpinner.Size = new Size(201, 60);
             pictureBoxSpinner.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBoxSpinner.TabIndex = 13;
             pictureBoxSpinner.TabStop = false;
@@ -204,7 +204,7 @@
             button1.ForeColor = Color.White;
             button1.Image = (Image)resources.GetObject("button1.Image");
             button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(244, 296);
+            button1.Location = new Point(242, 358);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(101, 32);
@@ -219,10 +219,10 @@
             pictureBoxSpin.BackColor = Color.Transparent;
             pictureBoxSpin.BackgroundImageLayout = ImageLayout.Center;
             pictureBoxSpin.Image = (Image)resources.GetObject("pictureBoxSpin.Image");
-            pictureBoxSpin.Location = new Point(110, 122);
+            pictureBoxSpin.Location = new Point(86, 118);
             pictureBoxSpin.Margin = new Padding(3, 2, 3, 2);
             pictureBoxSpin.Name = "pictureBoxSpin";
-            pictureBoxSpin.Size = new Size(139, 84);
+            pictureBoxSpin.Size = new Size(184, 160);
             pictureBoxSpin.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBoxSpin.TabIndex = 15;
             pictureBoxSpin.TabStop = false;
@@ -241,7 +241,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(86, 222);
+            button2.Location = new Point(86, 259);
             button2.Name = "button2";
             button2.Size = new Size(84, 24);
             button2.TabIndex = 17;
@@ -255,7 +255,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(355, 362);
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(355, 398);
             Controls.Add(button2);
             Controls.Add(label5);
             Controls.Add(pictureBoxSpin);
