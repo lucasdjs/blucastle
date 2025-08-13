@@ -96,8 +96,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -106,7 +110,7 @@
               "RelativeDocumentMoniker": "blucaste\\Properties\\PublishProfiles\\ClickOnceProfile.pubxml",
               "ToolTip": "C:\\blucastle\\blucaste\\Properties\\PublishProfiles\\ClickOnceProfile.pubxml",
               "RelativeToolTip": "blucaste\\Properties\\PublishProfiles\\ClickOnceProfile.pubxml",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAADEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2025-08-12T20:31:31.101Z",
               "EditorCaption": ""
@@ -146,12 +150,7 @@
               "RelativeToolTip": "blucaste\\Forms\\Inicializer.Designer.cs",
               "ViewState": "AgIAAAoBAAAAAAAAAAAmwBkBAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T20:09:23.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "WhenOpened": "2025-08-12T20:09:23.27Z"
             },
             {
               "$type": "Document",
@@ -176,8 +175,7 @@
               "RelativeToolTip": "blucaste\\Services\\TelnetHelperAppService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T17:45:10.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T17:45:10.377Z"
             },
             {
               "$type": "Document",
@@ -201,8 +199,7 @@
               "RelativeToolTip": "blucaste\\Program.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAowBcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T01:05:57.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T01:05:57.609Z"
             },
             {
               "$type": "Document",
@@ -226,8 +223,7 @@
               "RelativeToolTip": "blucaste\\Logger\\TelnetLogger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T17:43:32.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T17:43:32.431Z"
             },
             {
               "$type": "Document",
@@ -251,8 +247,7 @@
               "RelativeToolTip": "blucaste\\Services\\SshConnectionAppService.cs",
               "ViewState": "AgIAAHMAAAAAAAAAAAAcwJ4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T20:19:08.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T20:19:08.123Z"
             },
             {
               "$type": "Document",
@@ -264,8 +259,7 @@
               "RelativeToolTip": "..\\Users\\Samuel\\AppData\\Local\\SourceServer\\664598da72af79c23f377501a3a843927dae764daa6954e98c3c971cd57092e6\\Ix.NET\\Source\\System.Linq.Async\\System\\Linq\\Operators\\ForEach.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAvwB8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T20:02:47.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T20:02:47.316Z"
             },
             {
               "$type": "Document",
@@ -301,8 +295,7 @@
               "RelativeToolTip": "blucaste\\PresetData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T19:08:18.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T19:08:18.445Z"
             },
             {
               "$type": "Document",
@@ -326,8 +319,7 @@
               "RelativeToolTip": "blucaste\\Services\\TelnetConnectionAppService.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAA7wBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T17:45:21.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T17:45:21.313Z"
             },
             {
               "$type": "Document",
@@ -351,8 +343,7 @@
               "RelativeToolTip": "blucaste\\Gateway\\ConfigSettings.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAgwBgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T17:41:16.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T17:41:16.86Z"
             },
             {
               "$type": "Document",
@@ -364,8 +355,7 @@
               "RelativeToolTip": "blucaste\\Gateway\\GatewayNetwork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T17:40:47.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T17:40:47.661Z"
             },
             {
               "$type": "Document",
@@ -377,8 +367,7 @@
               "RelativeToolTip": "blucaste\\Services\\RouterExecutorAppService.cs",
               "ViewState": "AgIAAIMAAAAAAAAAAAAswKQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T17:35:07.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T17:35:07.096Z"
             }
           ]
         }
