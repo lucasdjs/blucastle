@@ -49,7 +49,3 @@ C:\blucastle\blucaste\obj\Release\net8.0-windows\refint\blucaste.dll
 C:\blucastle\blucaste\obj\Release\net8.0-windows\blucaste.pdb
 C:\blucastle\blucaste\obj\Release\net8.0-windows\blucaste.genruntimeconfig.cache
 C:\blucastle\blucaste\obj\Release\net8.0-windows\ref\blucaste.dll
-C:\blucastle\blucaste\bin\Release\net8.0-windows\blucaste.dll.manifest
-C:\blucastle\blucaste\bin\Release\net8.0-windows\blucaste.application
-C:\blucastle\blucaste\obj\Release\net8.0-windows\blucaste.dll.manifest
-C:\blucastle\blucaste\obj\Release\net8.0-windows\blucaste.application
